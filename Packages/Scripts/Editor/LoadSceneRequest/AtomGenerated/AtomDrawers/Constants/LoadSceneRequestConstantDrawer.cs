@@ -1,9 +1,9 @@
 #if UNITY_2019_1_OR_NEWER
-using Runtime.Data.LoadSceneRequest.AtomGenerated.Constants;
+using Enpiech.SceneManagement.Runtime.Data.LoadSceneRequest.AtomGenerated.Constants;
 using UnityAtoms.Editor;
 using UnityEditor;
 
-namespace Editor.LoadSceneRequest.AtomGenerated.AtomDrawers.Constants
+namespace Enpiech.SceneManagement.Editor.LoadSceneRequest.AtomGenerated.AtomDrawers.Constants
 {
     /// <summary>
     ///     Constant property drawer of type `LoadSceneRequest`. Inherits from `AtomDrawer&lt;LoadSceneRequestConstant&gt;`.

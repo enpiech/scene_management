@@ -1,6 +1,6 @@
 {
   "name": "SceneManagement.Editor",
-  "rootNamespace": "",
+  "rootNamespace": "Enpiech.SceneManagement",
   "references": [
     "UnityAtoms.UnityAtomsCore.Editor",
     "UnityAtoms.UnityAtomsCore.Runtime",

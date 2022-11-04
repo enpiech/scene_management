@@ -4,7 +4,7 @@ using Enpiech.Core.Runtime.UI.Fade.AtomGenerated.Events;
 using UnityEngine;
 using UnityEngine.UI;
 
-namespace Runtime
+namespace Enpiech.SceneManagement.Runtime
 {
     public sealed class FadeController : MonoBehaviour
     {

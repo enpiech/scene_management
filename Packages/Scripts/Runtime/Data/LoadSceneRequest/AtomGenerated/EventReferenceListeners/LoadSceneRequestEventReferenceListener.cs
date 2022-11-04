@@ -1,10 +1,10 @@
-using Runtime.Data.LoadSceneRequest.AtomGenerated.EventReferences;
-using Runtime.Data.LoadSceneRequest.AtomGenerated.Events;
-using Runtime.Data.LoadSceneRequest.AtomGenerated.UnityEvents;
+using Enpiech.SceneManagement.Runtime.Data.LoadSceneRequest.AtomGenerated.EventReferences;
+using Enpiech.SceneManagement.Runtime.Data.LoadSceneRequest.AtomGenerated.Events;
+using Enpiech.SceneManagement.Runtime.Data.LoadSceneRequest.AtomGenerated.UnityEvents;
 using UnityAtoms;
 using UnityEngine;
 
-namespace Runtime.Data.LoadSceneRequest.AtomGenerated.EventReferenceListeners
+namespace Enpiech.SceneManagement.Runtime.Data.LoadSceneRequest.AtomGenerated.EventReferenceListeners
 {
     /// <summary>
     ///     Event Reference Listener of type `LoadSceneRequest`. Inherits from `AtomEventReferenceListener&lt;LoadSceneRequest,

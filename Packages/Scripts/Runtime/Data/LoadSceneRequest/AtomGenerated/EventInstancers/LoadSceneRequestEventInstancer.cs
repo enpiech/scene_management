@@ -1,8 +1,8 @@
-using Runtime.Data.LoadSceneRequest.AtomGenerated.Events;
+using Enpiech.SceneManagement.Runtime.Data.LoadSceneRequest.AtomGenerated.Events;
 using UnityAtoms;
 using UnityEngine;
 
-namespace Runtime.Data.LoadSceneRequest.AtomGenerated.EventInstancers
+namespace Enpiech.SceneManagement.Runtime.Data.LoadSceneRequest.AtomGenerated.EventInstancers
 {
     /// <summary>
     ///     Event Instancer of type `LoadSceneRequest`. Inherits from `AtomEventInstancer&lt;LoadSceneRequest,

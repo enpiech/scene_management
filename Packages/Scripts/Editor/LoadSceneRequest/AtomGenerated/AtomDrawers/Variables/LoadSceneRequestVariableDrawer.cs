@@ -1,9 +1,9 @@
 #if UNITY_2019_1_OR_NEWER
-using Runtime.Data.LoadSceneRequest.AtomGenerated.Variables;
+using Enpiech.SceneManagement.Runtime.Data.LoadSceneRequest.AtomGenerated.Variables;
 using UnityAtoms.Editor;
 using UnityEditor;
 
-namespace Editor.LoadSceneRequest.AtomGenerated.AtomDrawers.Variables
+namespace Enpiech.SceneManagement.Editor.LoadSceneRequest.AtomGenerated.AtomDrawers.Variables
 {
     /// <summary>
     ///     Variable property drawer of type `LoadSceneRequest`. Inherits from `AtomDrawer&lt;LoadSceneRequestVariable&gt;`.

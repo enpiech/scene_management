@@ -1,4 +1,4 @@
-﻿namespace Runtime
+﻿namespace Enpiech.SceneManagement.Runtime
 {
     /// <summary>
     ///     Used by the SceneSelector tool to discern what type of scene it needs to load

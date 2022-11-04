@@ -1,8 +1,8 @@
-using Runtime.Data.LoadSceneRequest.AtomGenerated.Pairs;
+using Enpiech.SceneManagement.Runtime.Data.LoadSceneRequest.AtomGenerated.Pairs;
 using UnityAtoms;
 using UnityEngine;
 
-namespace Runtime.Data.LoadSceneRequest.AtomGenerated.Events
+namespace Enpiech.SceneManagement.Runtime.Data.LoadSceneRequest.AtomGenerated.Events
 {
     /// <summary>
     ///     Event of type `LoadSceneRequestPair`. Inherits from `AtomEvent&lt;LoadSceneRequestPair&gt;`.

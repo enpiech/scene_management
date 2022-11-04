@@ -1,6 +1,6 @@
 {
   "name": "SceneManagement.Runtime",
-  "rootNamespace": "",
+  "rootNamespace": "Enpiech.SceneManagement",
   "references": [
     "Unity.Addressables",
     "Unity.Localization",

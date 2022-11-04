@@ -1,7 +1,7 @@
 using UnityAtoms;
 using UnityEngine;
 
-namespace Runtime.Data.LoadSceneRequest.AtomGenerated.Events
+namespace Enpiech.SceneManagement.Runtime.Data.LoadSceneRequest.AtomGenerated.Events
 {
     /// <summary>
     ///     Event of type `LoadSceneRequest`. Inherits from `AtomEvent&lt;LoadSceneRequest&gt;`.

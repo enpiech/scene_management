@@ -1,9 +1,9 @@
-using Runtime.Data.LoadSceneRequest.AtomGenerated.Events;
-using Runtime.Data.LoadSceneRequest.AtomGenerated.Pairs;
+using Enpiech.SceneManagement.Runtime.Data.LoadSceneRequest.AtomGenerated.Events;
+using Enpiech.SceneManagement.Runtime.Data.LoadSceneRequest.AtomGenerated.Pairs;
 using UnityAtoms;
 using UnityEngine;
 
-namespace Runtime.Data.LoadSceneRequest.AtomGenerated.EventInstancers
+namespace Enpiech.SceneManagement.Runtime.Data.LoadSceneRequest.AtomGenerated.EventInstancers
 {
     /// <summary>
     ///     Event Instancer of type `LoadSceneRequestPair`. Inherits from `AtomEventInstancer&lt;LoadSceneRequestPair,

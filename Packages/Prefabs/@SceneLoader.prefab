@@ -42,12 +42,12 @@ MonoBehaviour:
   m_GameObject: {fileID: 1025208145609772263}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 0e84955e6dceebb45ad0d41548cb03e9, type: 3}
+  m_Script: {fileID: 11500000, guid: d7b741505980901469da67fce30c34ee, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   _fadeDuration: 0
   _gameplayManagerSceneSO: {fileID: 11400000, guid: 23925d5a4f48b504f91ea5203cad0484, type: 2}
-  _loadedPercent: 0.75
+  _loadedPercent: 0.95
   _loadGameplayLevelEvent: {fileID: 11400000, guid: 0b7bd6cf53bdae947b494863abb8ce9a, type: 2}
   _loadMenuEvent: {fileID: 11400000, guid: 6cac998f564f98d44b7a4848d1970a6c, type: 2}
   _coldStartEvent: {fileID: 11400000, guid: 7238dd1645df9854d8f6628215c3c36d, type: 2}

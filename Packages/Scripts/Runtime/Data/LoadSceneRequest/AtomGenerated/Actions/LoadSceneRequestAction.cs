@@ -1,6 +1,6 @@
 using UnityAtoms;
 
-namespace Runtime.Data.LoadSceneRequest.AtomGenerated.Actions
+namespace Enpiech.SceneManagement.Runtime.Data.LoadSceneRequest.AtomGenerated.Actions
 {
     /// <summary>
     ///     Action of type `LoadSceneRequest`. Inherits from `AtomAction&lt;LoadSceneRequest&gt;`.

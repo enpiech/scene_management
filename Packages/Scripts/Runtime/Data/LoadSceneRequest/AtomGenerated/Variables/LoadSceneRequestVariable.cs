@@ -1,11 +1,11 @@
 using System;
-using Runtime.Data.LoadSceneRequest.AtomGenerated.Events;
-using Runtime.Data.LoadSceneRequest.AtomGenerated.Functions;
-using Runtime.Data.LoadSceneRequest.AtomGenerated.Pairs;
+using Enpiech.SceneManagement.Runtime.Data.LoadSceneRequest.AtomGenerated.Events;
+using Enpiech.SceneManagement.Runtime.Data.LoadSceneRequest.AtomGenerated.Functions;
+using Enpiech.SceneManagement.Runtime.Data.LoadSceneRequest.AtomGenerated.Pairs;
 using UnityAtoms;
 using UnityEngine;
 
-namespace Runtime.Data.LoadSceneRequest.AtomGenerated.Variables
+namespace Enpiech.SceneManagement.Runtime.Data.LoadSceneRequest.AtomGenerated.Variables
 {
     /// <summary>
     ///     Variable of type `LoadSceneRequest`. Inherits from `AtomVariable&lt;LoadSceneRequest, LoadSceneRequestPair,

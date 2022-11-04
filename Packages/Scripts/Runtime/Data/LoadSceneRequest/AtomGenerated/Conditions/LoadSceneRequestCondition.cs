@@ -1,6 +1,6 @@
 using UnityAtoms;
 
-namespace Runtime.Data.LoadSceneRequest.AtomGenerated.Conditions
+namespace Enpiech.SceneManagement.Runtime.Data.LoadSceneRequest.AtomGenerated.Conditions
 {
     /// <summary>
     ///     Condition of type `LoadSceneRequest`. Inherits from `AtomCondition&lt;LoadSceneRequest&gt;`.

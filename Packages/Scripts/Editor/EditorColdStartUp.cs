@@ -1,12 +1,12 @@
 ﻿using Enpiech.Core.Runtime.Gameplay.Save;
-using Runtime.Data.LoadSceneRequest.AtomGenerated.Events;
-using Runtime.ScriptableObjects;
+using Enpiech.SceneManagement.Runtime.Data.LoadSceneRequest.AtomGenerated.Events;
+using Enpiech.SceneManagement.Runtime.ScriptableObjects;
 using UnityAtoms.BaseAtoms;
 using UnityEngine;
 using UnityEngine.ResourceManagement.AsyncOperations;
 using UnityEngine.SceneManagement;
 
-namespace Editor
+namespace Enpiech.SceneManagement.Editor
 {
     /// <summary>
     ///     Allows a "cold start" in the editor, when pressing Play and not passing from the Initialisation scene.

@@ -1,10 +1,10 @@
-using Runtime.Data.LoadSceneRequest.AtomGenerated.VariableInstancers;
-using Runtime.Data.LoadSceneRequest.AtomGenerated.Variables;
+using Enpiech.SceneManagement.Runtime.Data.LoadSceneRequest.AtomGenerated.VariableInstancers;
+using Enpiech.SceneManagement.Runtime.Data.LoadSceneRequest.AtomGenerated.Variables;
 using UnityAtoms;
 using UnityAtoms.BaseAtoms;
 using UnityEngine;
 
-namespace Runtime.Data.LoadSceneRequest.AtomGenerated.SyncVariableInstancerToCollection
+namespace Enpiech.SceneManagement.Runtime.Data.LoadSceneRequest.AtomGenerated.SyncVariableInstancerToCollection
 {
     /// <summary>
     ///     Adds Variable Instancer's Variable of type LoadSceneRequest to a Collection or List on OnEnable and removes it on

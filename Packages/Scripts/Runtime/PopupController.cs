@@ -2,7 +2,7 @@
 using UnityAtoms.BaseAtoms;
 using UnityEngine;
 
-namespace Runtime
+namespace Enpiech.SceneManagement.Runtime
 {
     public sealed class PopupController : MonoBehaviour
     {

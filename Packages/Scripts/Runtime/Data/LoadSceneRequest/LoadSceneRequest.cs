@@ -1,9 +1,9 @@
 ﻿using System;
-using Runtime.ScriptableObjects;
+using Enpiech.SceneManagement.Runtime.ScriptableObjects;
 using UnityEngine;
 using UnityEngine.Serialization;
 
-namespace Runtime.Data.LoadSceneRequest
+namespace Enpiech.SceneManagement.Runtime.Data.LoadSceneRequest
 {
     [Serializable]
     public class LoadSceneRequest

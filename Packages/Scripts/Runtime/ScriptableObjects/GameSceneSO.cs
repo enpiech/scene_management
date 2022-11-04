@@ -3,7 +3,7 @@ using Enpiech.Core.Runtime;
 using UnityEngine;
 using UnityEngine.AddressableAssets;
 
-namespace Runtime.ScriptableObjects
+namespace Enpiech.SceneManagement.Runtime.ScriptableObjects
 {
     /// <summary>
     ///     This class is a base class which contains what is common to all game scenes
