@@ -1,0 +1,28 @@
+{
+  "name": "SceneManagement.Runtime",
+  "rootNamespace": "",
+  "references": [
+    "Unity.Addressables",
+    "Unity.Localization",
+    "Unity.ResourceManager",
+    "NaughtyAttributes.Core",
+    "UnityAtoms.UnityAtomsBaseAtoms.Runtime",
+    "UnityAtoms.UnityAtomsCore.Runtime",
+    "Audio",
+    "Core",
+    "Input",
+    "UniTask",
+    "UniTask.Addressables",
+    "DOTween.Modules",
+    "Utils.Runtime"
+  ],
+  "includePlatforms": [],
+  "excludePlatforms": [],
+  "allowUnsafeCode": false,
+  "overrideReferences": false,
+  "precompiledReferences": [],
+  "autoReferenced": true,
+  "defineConstraints": [],
+  "versionDefines": [],
+  "noEngineReferences": false
+}

@@ -1,0 +1,16 @@
+{
+  "name": "me.enpiech.scene-management",
+  "version": "1.0.0",
+  "displayName": "Scene Management",
+  "description": "This is a SceneManagement package",
+  "unity": "2021.3",
+  "keywords": [
+    "scene",
+    "scene management"
+  ],
+  "author": {
+    "name": "Enpiech",
+    "email": "enpiech@gmail.com",
+    "url": "https://github.com/enpiech"
+  }
+}

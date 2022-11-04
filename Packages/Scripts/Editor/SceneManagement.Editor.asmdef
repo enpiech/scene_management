@@ -1,0 +1,24 @@
+{
+  "name": "SceneManagement.Editor",
+  "rootNamespace": "",
+  "references": [
+    "UnityAtoms.UnityAtomsCore.Editor",
+    "UnityAtoms.UnityAtomsCore.Runtime",
+    "SceneManagement.Runtime",
+    "Core",
+    "UnityAtoms.UnityAtomsBaseAtoms.Runtime",
+    "Unity.Addressables",
+    "Unity.ResourceManager"
+  ],
+  "includePlatforms": [
+    "Editor"
+  ],
+  "excludePlatforms": [],
+  "allowUnsafeCode": false,
+  "overrideReferences": false,
+  "precompiledReferences": [],
+  "autoReferenced": true,
+  "defineConstraints": [],
+  "versionDefines": [],
+  "noEngineReferences": false
+}
