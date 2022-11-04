@@ -1,9 +1,10 @@
-﻿using SceneManagement.Events;
-using SceneManagement.ScriptableObjects;
+﻿using Runtime.Data.LoadSceneRequest;
+using Runtime.Data.LoadSceneRequest.AtomGenerated.Events;
+using Runtime.ScriptableObjects;
 using UnityAtoms;
 using UnityEngine;
 
-namespace SceneManagement.Actions
+namespace Runtime.Actions
 {
     [EditorIcon("atom-icon-purple")]
     [CreateAssetMenu(menuName = "Unity Atoms/Actions/Scene Management/Load Scene", fileName = "AC_LoadScene")]

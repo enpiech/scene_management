@@ -3,7 +3,7 @@ using Enpiech.Audio.Runtime.Data;
 using UnityEngine;
 using UnityEngine.AddressableAssets;
 
-namespace SceneManagement.ScriptableObjects
+namespace Runtime.ScriptableObjects
 {
     /// <summary>
     ///     This class is a base class which contains what is common to all game scenes

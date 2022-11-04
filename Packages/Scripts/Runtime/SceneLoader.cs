@@ -4,15 +4,16 @@ using Core.UI.Data;
 using Cysharp.Threading.Tasks;
 using Enpiech.Utils.Runtime.Helper;
 using NaughtyAttributes;
-using SceneManagement.Events;
-using SceneManagement.ScriptableObjects;
+using Runtime.Data.LoadSceneRequest;
+using Runtime.Data.LoadSceneRequest.AtomGenerated.Events;
+using Runtime.ScriptableObjects;
 using UnityAtoms.BaseAtoms;
 using UnityEngine;
 using UnityEngine.AddressableAssets;
 using UnityEngine.ResourceManagement.ResourceProviders;
 using UnityEngine.SceneManagement;
 
-namespace SceneManagement
+namespace Runtime
 {
     /// <summary>
     ///     This class manages the scene loading and unloading.

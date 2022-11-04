@@ -1,10 +1,10 @@
 #if UNITY_2019_1_OR_NEWER
-using SceneManagement.Events;
-using SceneManagement.Pairs;
+using Runtime.Data.LoadSceneRequest.AtomGenerated.Events;
+using Runtime.Data.LoadSceneRequest.AtomGenerated.Pairs;
 using UnityAtoms.Editor;
 using UnityEditor;
 
-namespace SceneManagement.Editor.AtomEditors.Events
+namespace Runtime.Data.LoadSceneRequest.AtomGenerated.Editor.AtomEditors.Events
 {
     /// <summary>
     ///     Event property drawer of type `LoadSceneRequestPair`. Inherits from `AtomEventEditor&lt;LoadSceneRequestPair,

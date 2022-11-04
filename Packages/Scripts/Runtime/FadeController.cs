@@ -4,7 +4,7 @@ using DG.Tweening;
 using UnityEngine;
 using UnityEngine.UI;
 
-namespace SceneManagement
+namespace Runtime
 {
     public sealed class FadeController : MonoBehaviour
     {

@@ -2,7 +2,7 @@ using System;
 using UnityAtoms;
 using UnityEngine;
 
-namespace SceneManagement.Pairs
+namespace Runtime.Data.LoadSceneRequest.AtomGenerated.Pairs
 {
     /// <summary>
     ///     IPair of type `&lt;LoadSceneRequest&gt;`. Inherits from `IPair&lt;LoadSceneRequest&gt;`.

@@ -1,17 +1,14 @@
 ﻿using System;
-using System.Diagnostics;
 using Cysharp.Threading.Tasks;
-using SceneManagement.Actions;
-using SceneManagement.ScriptableObjects;
+using Runtime.Actions;
+using Runtime.ScriptableObjects;
 using UnityEngine;
 using UnityEngine.AddressableAssets;
 using UnityEngine.ResourceManagement.ResourceProviders;
 using UnityEngine.SceneManagement;
-using UnityAtoms.BaseAtoms;
 using UnityEngine.UI;
-using Debug = UnityEngine.Debug;
 
-namespace SceneManagement
+namespace Runtime
 {
     /// <summary>
     ///     This class is responsible for starting the game by loading the persistent managers scene
@@ -39,16 +36,14 @@ namespace SceneManagement
         {
             await LoadPersistentManagerScene();
         }
+
         private async UniTask LoadPersistentManagerScene()
         {
             var progress = 0f;
             _slider.value = 0;
 
             var handler = _managersScene.SceneReference.LoadSceneAsync(LoadSceneMode.Additive, false);
-            handler.Completed += _ =>
-            {
-                _slider.value = _slider.maxValue;
-            };
+            handler.Completed += _ => { _slider.value = _slider.maxValue; };
             while (progress < 0.9f)
             {
                 progress += 0.01f;

@@ -2,7 +2,7 @@
 using UnityAtoms.BaseAtoms;
 using UnityEngine;
 
-namespace SceneManagement
+namespace Runtime
 {
     public sealed class PopupController : MonoBehaviour
     {

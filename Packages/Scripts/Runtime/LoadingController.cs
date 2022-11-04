@@ -2,7 +2,7 @@ using Core.UI;
 using UnityAtoms.BaseAtoms;
 using UnityEngine;
 
-namespace SceneManagement
+namespace Runtime
 {
     public sealed class LoadingController : MonoBehaviour
     {

@@ -1,9 +1,9 @@
-using SceneManagement.Events;
-using SceneManagement.Pairs;
+using Runtime.Data.LoadSceneRequest.AtomGenerated.Events;
+using Runtime.Data.LoadSceneRequest.AtomGenerated.Pairs;
 using UnityAtoms;
 using UnityEngine;
 
-namespace SceneManagement.EventInstancers
+namespace Runtime.Data.LoadSceneRequest.AtomGenerated.EventInstancers
 {
     /// <summary>
     ///     Event Instancer of type `LoadSceneRequestPair`. Inherits from `AtomEventInstancer&lt;LoadSceneRequestPair,

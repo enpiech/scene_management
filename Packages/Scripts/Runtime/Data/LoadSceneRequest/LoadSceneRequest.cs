@@ -1,9 +1,9 @@
 ﻿using System;
-using SceneManagement.ScriptableObjects;
+using Runtime.ScriptableObjects;
 using UnityEngine;
 using UnityEngine.Serialization;
 
-namespace SceneManagement
+namespace Runtime.Data.LoadSceneRequest
 {
     [Serializable]
     public class LoadSceneRequest

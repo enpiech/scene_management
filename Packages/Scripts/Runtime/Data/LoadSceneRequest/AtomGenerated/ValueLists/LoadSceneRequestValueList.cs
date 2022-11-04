@@ -1,8 +1,8 @@
-using SceneManagement.Events;
+using Runtime.Data.LoadSceneRequest.AtomGenerated.Events;
 using UnityAtoms;
 using UnityEngine;
 
-namespace SceneManagement.ValueLists
+namespace Runtime.Data.LoadSceneRequest.AtomGenerated.ValueLists
 {
     /// <summary>
     ///     Value List of type `LoadSceneRequest`. Inherits from `AtomValueList&lt;LoadSceneRequest, LoadSceneRequestEvent&gt;

@@ -1,11 +1,11 @@
-using SceneManagement.EventReferences;
-using SceneManagement.Events;
-using SceneManagement.Pairs;
-using SceneManagement.UnityEvents;
+using Runtime.Data.LoadSceneRequest.AtomGenerated.EventReferences;
+using Runtime.Data.LoadSceneRequest.AtomGenerated.Events;
+using Runtime.Data.LoadSceneRequest.AtomGenerated.Pairs;
+using Runtime.Data.LoadSceneRequest.AtomGenerated.UnityEvents;
 using UnityAtoms;
 using UnityEngine;
 
-namespace SceneManagement.EventReferenceListeners
+namespace Runtime.Data.LoadSceneRequest.AtomGenerated.EventReferenceListeners
 {
     /// <summary>
     ///     Event Reference Listener of type `LoadSceneRequestPair`. Inherits from `AtomEventReferenceListener&lt;

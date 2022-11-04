@@ -1,8 +1,8 @@
 using System;
-using SceneManagement.Pairs;
+using Runtime.Data.LoadSceneRequest.AtomGenerated.Pairs;
 using UnityEngine.Events;
 
-namespace SceneManagement.UnityEvents
+namespace Runtime.Data.LoadSceneRequest.AtomGenerated.UnityEvents
 {
     /// <summary>
     ///     None generic Unity Event of type `LoadSceneRequestPair`. Inherits from `UnityEvent&lt;LoadSceneRequestPair&gt;`.

@@ -1,11 +1,11 @@
 using System;
-using SceneManagement.Events;
-using SceneManagement.Functions;
-using SceneManagement.Pairs;
+using Runtime.Data.LoadSceneRequest.AtomGenerated.Events;
+using Runtime.Data.LoadSceneRequest.AtomGenerated.Functions;
+using Runtime.Data.LoadSceneRequest.AtomGenerated.Pairs;
 using UnityAtoms;
 using UnityEngine;
 
-namespace SceneManagement.Variables
+namespace Runtime.Data.LoadSceneRequest.AtomGenerated.Variables
 {
     /// <summary>
     ///     Variable of type `LoadSceneRequest`. Inherits from `AtomVariable&lt;LoadSceneRequest, LoadSceneRequestPair,

@@ -1,7 +1,7 @@
 using UnityAtoms;
 using UnityEngine;
 
-namespace SceneManagement.Constants
+namespace Runtime.Data.LoadSceneRequest.AtomGenerated.Constants
 {
     /// <summary>
     ///     Constant of type `LoadSceneRequest`. Inherits from `AtomBaseVariable&lt;LoadSceneRequest&gt;`.

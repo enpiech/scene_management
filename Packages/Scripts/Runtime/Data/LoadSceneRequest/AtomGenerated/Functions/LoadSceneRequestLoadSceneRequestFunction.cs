@@ -1,6 +1,6 @@
 using UnityAtoms;
 
-namespace SceneManagement.Functions
+namespace Runtime.Data.LoadSceneRequest.AtomGenerated.Functions
 {
     /// <summary>
     ///     Function x 2 of type `LoadSceneRequest`. Inherits from `AtomFunction&lt;LoadSceneRequest, LoadSceneRequest&gt;`.
