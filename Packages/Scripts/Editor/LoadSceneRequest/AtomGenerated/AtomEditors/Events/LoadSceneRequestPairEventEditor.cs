@@ -4,7 +4,7 @@ using Runtime.Data.LoadSceneRequest.AtomGenerated.Pairs;
 using UnityAtoms.Editor;
 using UnityEditor;
 
-namespace Runtime.Data.LoadSceneRequest.AtomGenerated.Editor.AtomEditors.Events
+namespace Editor.LoadSceneRequest.AtomGenerated.AtomEditors.Events
 {
     /// <summary>
     ///     Event property drawer of type `LoadSceneRequestPair`. Inherits from `AtomEventEditor&lt;LoadSceneRequestPair,

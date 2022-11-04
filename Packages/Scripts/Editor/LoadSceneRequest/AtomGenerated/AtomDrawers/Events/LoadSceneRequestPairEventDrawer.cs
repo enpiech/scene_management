@@ -3,7 +3,7 @@ using Runtime.Data.LoadSceneRequest.AtomGenerated.Events;
 using UnityAtoms.Editor;
 using UnityEditor;
 
-namespace Runtime.Data.LoadSceneRequest.AtomGenerated.Editor.AtomDrawers.Events
+namespace Editor.LoadSceneRequest.AtomGenerated.AtomDrawers.Events
 {
     /// <summary>
     ///     Event property drawer of type `LoadSceneRequestPair`. Inherits from `AtomDrawer&lt;LoadSceneRequestPairEvent&gt;`.

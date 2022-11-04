@@ -1,7 +1,7 @@
 using System;
-using Core.UI.AtomGenerated.Events;
-using Core.UI.Data;
 using Cysharp.Threading.Tasks;
+using Enpiech.Core.Runtime.UI.Data;
+using Enpiech.Core.Runtime.UI.Fade.AtomGenerated.Events;
 using Enpiech.Utils.Runtime.Helper;
 using NaughtyAttributes;
 using Runtime.Data.LoadSceneRequest;

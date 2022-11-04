@@ -1,6 +1,6 @@
-﻿using Core.UI.AtomGenerated.Events;
-using Core.UI.Data;
-using DG.Tweening;
+﻿using DG.Tweening;
+using Enpiech.Core.Runtime.UI.Data;
+using Enpiech.Core.Runtime.UI.Fade.AtomGenerated.Events;
 using UnityEngine;
 using UnityEngine.UI;
 

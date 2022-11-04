@@ -3,7 +3,7 @@ using Runtime.Data.LoadSceneRequest.AtomGenerated.Variables;
 using UnityAtoms.Editor;
 using UnityEditor;
 
-namespace Runtime.Data.LoadSceneRequest.AtomGenerated.Editor.AtomDrawers.Variables
+namespace Editor.LoadSceneRequest.AtomGenerated.AtomDrawers.Variables
 {
     /// <summary>
     ///     Variable property drawer of type `LoadSceneRequest`. Inherits from `AtomDrawer&lt;LoadSceneRequestVariable&gt;`.

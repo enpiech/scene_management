@@ -1,5 +1,4 @@
-﻿using Core.Gameplay.Save;
-using Runtime.Data.LoadSceneRequest;
+﻿using Enpiech.Core.Runtime.Gameplay.Save;
 using Runtime.Data.LoadSceneRequest.AtomGenerated.Events;
 using Runtime.ScriptableObjects;
 using UnityAtoms.BaseAtoms;
@@ -35,11 +34,11 @@ namespace Editor
         private VoidEvent _onSceneReadyChannel = default!;
 
         private bool _isColdStart;
-        private LoadSceneRequest _loadSceneRequest = null!;
+        private Runtime.Data.LoadSceneRequest.LoadSceneRequest _loadSceneRequest = null!;
 
         private void Awake()
         {
-            _loadSceneRequest = new LoadSceneRequest(_thisSceneSO);
+            _loadSceneRequest = new Runtime.Data.LoadSceneRequest.LoadSceneRequest(_thisSceneSO);
             var persistentManagersSceneName = _persistentManagersSO.SceneReference.editorAsset.name;
             if (!SceneManager.GetSceneByName(persistentManagersSceneName).isLoaded)
             {

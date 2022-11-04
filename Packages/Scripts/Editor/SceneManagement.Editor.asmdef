@@ -5,7 +5,7 @@
     "UnityAtoms.UnityAtomsCore.Editor",
     "UnityAtoms.UnityAtomsCore.Runtime",
     "SceneManagement.Runtime",
-    "Core",
+    "Core.Runtime",
     "UnityAtoms.UnityAtomsBaseAtoms.Runtime",
     "Unity.Addressables",
     "Unity.ResourceManager"
