@@ -8,7 +8,7 @@
     "NaughtyAttributes.Core",
     "UnityAtoms.UnityAtomsBaseAtoms.Runtime",
     "UnityAtoms.UnityAtomsCore.Runtime",
-    "Audio",
+    "Audio.Runtime",
     "Core",
     "Input",
     "UniTask",
