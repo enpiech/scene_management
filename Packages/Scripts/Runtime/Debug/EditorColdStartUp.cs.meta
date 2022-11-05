@@ -1,0 +1,16 @@
+fileFormatVersion: 2
+guid: 1f3ca1720e9077843b610aa557b2b60a
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences:
+  - _thisSceneSO: {instanceID: 0}
+  - _persistentManagersSO: {fileID: 11400000, guid: 28801ea818f26894486359b64ef3d0e8, type: 2}
+  - _saveSystem: {fileID: 11400000, guid: 0375b7034579a5b42b9b9dec64806b4d, type: 2}
+  - _notifyColdStartupChannel: {fileID: 11400000, guid: 7238dd1645df9854d8f6628215c3c36d, type: 2}
+  - _onSceneReadyChannel: {fileID: 11400000, guid: 95f965b6cec43054f9d1b799710fbdd7, type: 2}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
