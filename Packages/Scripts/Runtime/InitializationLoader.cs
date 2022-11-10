@@ -25,7 +25,7 @@ namespace Enpiech.SceneManagement.Runtime
         private AssetReferenceT<LoadSceneAction> _loadMenuActionReference = default!;
 
         [SerializeField]
-        private Slider _slider = default!;
+        private Slider? _slider;
 
         private void Start()
         {
@@ -40,15 +40,17 @@ namespace Enpiech.SceneManagement.Runtime
         private async UniTask LoadPersistentManagerScene()
         {
             var progress = 0f;
-            _slider.value = 0;
-
             var handler = _managersScene.SceneReference.LoadSceneAsync(LoadSceneMode.Additive, false);
-            handler.Completed += _ => { _slider.value = _slider.maxValue; };
-            while (progress < 0.9f)
+            if (_slider != null)
             {
-                progress += 0.01f;
-                _slider.value = progress;
-                await UniTask.Delay(TimeSpan.FromSeconds(0.01f));
+                _slider.value = 0;
+                handler.Completed += _ => { _slider.value = _slider.maxValue; };
+                while (progress < 0.9f)
+                {
+                    progress += 0.01f;
+                    _slider.value = progress;
+                    await UniTask.Delay(TimeSpan.FromSeconds(0.01f));
+                }
             }
             await handler;
             await OnManagersSceneLoaded(handler.Result);
