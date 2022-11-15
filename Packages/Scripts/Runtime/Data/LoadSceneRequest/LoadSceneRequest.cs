@@ -6,7 +6,7 @@ using UnityEngine.Serialization;
 namespace Enpiech.SceneManagement.Runtime.Data.LoadSceneRequest
 {
     [Serializable]
-    public class LoadSceneRequest
+    public class LoadSceneRequest : IEquatable<LoadSceneRequest>
     {
         [SerializeField]
         [Range(0, 1)]
@@ -52,10 +52,39 @@ namespace Enpiech.SceneManagement.Runtime.Data.LoadSceneRequest
 
         public float LoadedPercent => _loadedPercent;
 
+        public bool Equals(LoadSceneRequest other)
+        {
+            return _loadingPercent.Equals(other._loadingPercent) && _loadedPercent.Equals(other._loadedPercent) &&
+                   Equals(_sceneToLoad, other._sceneToLoad) && _shouldShowLoadingScreenOnLoading == other._shouldShowLoadingScreenOnLoading &&
+                   _shouldHideLoadingScreenOnLoaded == other._shouldHideLoadingScreenOnLoaded &&
+                   _isFadeOnTransition == other._isFadeOnTransition;
+        }
+
         public LoadSceneRequest With(GameSceneSO sceneToLoad)
         {
             return new LoadSceneRequest(sceneToLoad, _shouldShowLoadingScreenOnLoading, _shouldHideLoadingScreenOnLoaded,
                 _isFadeOnTransition, _loadingPercent, _loadedPercent);
+        }
+
+        public override bool Equals(object obj)
+        {
+            return obj is LoadSceneRequest other && Equals(other);
+        }
+
+        public override int GetHashCode()
+        {
+            return HashCode.Combine(_loadingPercent, _loadedPercent, _sceneToLoad, _shouldShowLoadingScreenOnLoading,
+                _shouldHideLoadingScreenOnLoaded, _isFadeOnTransition);
+        }
+
+        public static bool operator ==(LoadSceneRequest left, LoadSceneRequest right)
+        {
+            return left.Equals(right);
+        }
+
+        public static bool operator !=(LoadSceneRequest left, LoadSceneRequest right)
+        {
+            return !left.Equals(right);
         }
     }
 }
