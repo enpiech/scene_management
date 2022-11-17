@@ -118,7 +118,7 @@ namespace Enpiech.SceneManagement.Runtime
         {
             _currentlyLoadedScene = loadSceneRequest.SceneToLoad;
 
-            if (_currentlyLoadedScene.SceneType != GameSceneType.GameplayLevel)
+            if (_currentlyLoadedScene!.SceneType != GameSceneType.GameplayLevel)
             {
                 return;
             }
@@ -215,27 +215,27 @@ namespace Enpiech.SceneManagement.Runtime
         /// </summary>
         private async UniTaskVoid LoadNewScene()
         {
-            if (_loadSceneRequest == null)
+            if (!_loadSceneRequest.HasValue)
             {
                 return;
             }
 
-            if (_loadSceneRequest.ShouldShowLoadingScreenOnLoading)
+            if (_loadSceneRequest.Value.ShouldShowLoadingScreenOnLoading)
             {
                 _toggleLoadingEvent.Raise(true);
-                _changeLoadingProgressEvent.Raise(_loadSceneRequest.LoadingPercent);
+                _changeLoadingProgressEvent.Raise(_loadSceneRequest.Value.LoadingPercent);
             }
 
             var loadSceneProgress = Progress.Create<float>(progress =>
             {
                 if (progress <= _loadedPercent)
                 {
-                    _changeLoadingProgressEvent.Raise(progress / 2 + _loadSceneRequest.LoadingPercent);
+                    _changeLoadingProgressEvent.Raise(progress / 2 + _loadSceneRequest.Value.LoadingPercent);
                 }
             });
-            await _loadSceneRequest.SceneToLoad.SceneReference.LoadSceneAsync(LoadSceneMode.Additive)
+            await _loadSceneRequest.Value.SceneToLoad.SceneReference.LoadSceneAsync(LoadSceneMode.Additive)
                 .ToUniTask(loadSceneProgress)
-                .ContinueWith(sceneInstance => OnNewSceneLoaded(_loadSceneRequest, sceneInstance));
+                .ContinueWith(sceneInstance => OnNewSceneLoaded(_loadSceneRequest.Value, sceneInstance));
         }
 
         private void OnNewSceneLoaded(LoadSceneRequest loadSceneRequest, SceneInstance sceneInstance)

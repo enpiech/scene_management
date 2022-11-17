@@ -6,7 +6,7 @@ using UnityEngine.Serialization;
 namespace Enpiech.SceneManagement.Runtime.Data.LoadSceneRequest
 {
     [Serializable]
-    public class LoadSceneRequest : IEquatable<LoadSceneRequest>
+    public struct LoadSceneRequest : IEquatable<LoadSceneRequest>
     {
         [SerializeField]
         [Range(0, 1)]

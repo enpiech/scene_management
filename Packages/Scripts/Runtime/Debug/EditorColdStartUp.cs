@@ -34,7 +34,7 @@ namespace Enpiech.SceneManagement.Editor
         private VoidEvent _onSceneReadyChannel = default!;
 
         private bool _isColdStart;
-        private Runtime.Data.LoadSceneRequest.LoadSceneRequest _loadSceneRequest = null!;
+        private Runtime.Data.LoadSceneRequest.LoadSceneRequest _loadSceneRequest;
 
         private void Awake()
         {
